@@ -1,0 +1,97 @@
+:root {
+    --font: 'PT Sans', sans-serif;
+}
+body {
+    margin:0;
+    padding:0;
+}
+header {
+    display: flex;
+    align-items: center;
+    max-width: 1400px;
+    height: 150px;
+    background-color: #ccc;
+}
+.logo img {
+    width: 80px;
+    height: 80px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.menu--icon {
+    margin-left: 50%;
+    cursor: pointer;
+}
+.menu--icon .linha {
+    background-color: black;
+    width: 30px;
+    height: 5px;
+    margin-bottom: 3px;
+}
+.menu--icon .linha3 {
+    background-color: black;
+    width: 25px;
+    height: 5px;
+}
+.menu--area {
+    display: none;
+    padding-top: 50px;
+    background-color: #000;
+    max-width: 1400px;
+    height: 80px;
+}
+.menu--area--int {
+    margin-top: 30px;
+    height: 100vh;
+    background-color: #ccc;
+    opacity: 0.5;
+}
+.menu--list a {
+    font-family: var(--font);
+    text-decoration: none;
+    color: #ccc;
+}
+.menu--list a:hover {
+    color: #ff0000;
+}
+.menu--list li {
+    list-style: none;
+    padding-left: 50px;
+    font-size: 25px;
+}
+.menu--list ul {
+    display: flex;
+    justify-content: center;
+}
+.menu--area--open {
+    display: block !important;
+}
+
+
+section .banner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #eee;
+    height: calc(100vh - 150px);
+}
+.banner img {
+    width: 200px;
+    border-radius: 50%;
+}
+.banner .banner--texts {
+    text-align: center;
+}
+.banner--texts h1 {
+    color:#000;
+    font-size: 40px;
+    font-family: var(--font);
+    text-shadow: 8px 8px 5px #000;
+}
+.banner--texts h2 {
+    color: #000;
+    font-size: 25px;
+    font-family: var(--font);
+    text-shadow: 8px 8px 5px #000;
+}
